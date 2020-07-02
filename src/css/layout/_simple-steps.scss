@@ -1,0 +1,45 @@
+.steps{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; 
+    color: $font-color;
+    h1{
+        margin-top: 100px;
+        font-size: 38px;
+        font-weight: 300;
+    }
+    .stepIcons{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        div{
+            margin-top: 50px;
+            width: 300px;
+            text-align: center;
+            
+            h2{
+                font-size: 18px;
+                font-weight: 500;
+            
+            }
+            p{
+                font-weight: 300;
+                font-size: 16px;
+            }
+        }
+    }
+    .give{
+        margin-top: 40px;
+        font-size: 36px;
+        font-weight: 200;
+        height: 100px;
+        width: 260px;
+        border: 1px solid black;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+    }
+  
+}

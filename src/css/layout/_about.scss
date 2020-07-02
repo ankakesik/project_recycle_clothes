@@ -1,0 +1,21 @@
+.aboutAs{
+    display: flex;
+    flex-direction: row;
+    margin-top: 70px;
+    justify-content: space-between;
+    .people{
+       max-width: 1000px;
+    }
+    .aboutText{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+       
+        p{
+            text-align: center;
+          
+        }
+    }
+}

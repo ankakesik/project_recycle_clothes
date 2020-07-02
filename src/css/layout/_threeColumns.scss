@@ -1,0 +1,29 @@
+.threeBoxes{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: $yellow-color;
+    align-items: center;
+    color: $font-color;
+
+    div{
+        text-align: center;
+        padding: 0 50px;
+        margin-bottom: 50px;
+        
+        h1{
+            font-weight: 200;
+            font-size: 70px;
+        }
+        h2{
+            font-weight: 500;
+            font-size: 20px;
+    
+        }
+        p{
+            font-family: "Merriweather";
+            font-size: 14px;
+            
+        }
+    }
+}

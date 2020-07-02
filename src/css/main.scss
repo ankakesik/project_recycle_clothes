@@ -3,6 +3,15 @@
 @import "settings/fonts";
 @import "settings/colors";
 
+@import "layout/header";
+@import "layout/threeColumns";
+@import "layout/simple-steps";
+@import "layout/about";
+@import "layout/help";
+@import "layout/contact";
+@import "layout/footer";
+
+
 body{
     font-family: $font-base;
 }
