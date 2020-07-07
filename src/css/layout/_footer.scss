@@ -1,13 +1,29 @@
 .footer{
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    h1{
-        display: flex;
-        align-self: center;
+    height: 50px;
+  
+    
+    .footText{
+        display: inline-block;
+        width: 90%;
+        text-align: center;
+        
+        h1{ 
+        font-weight: 300;
+        font-size: 18px;
+        margin-top: 30px;   
+        
+    } 
     }
+   
     .socialmedia{
-        display: flex;
-        float: right;
+        width: 10%;
+        display: inline-block;
+        
+        img{
+              
+             text-align: right;
+             padding-right: 8px;
+             display: inline-block;
+        }
     }
 }

@@ -6,5 +6,12 @@
     .organization{
         display: flex;
         flex-direction: row;
+        h2{
+            font-size: 20px;
+            font-weight: 400;
+            padding: 20px;
+            border: 1px solid black;
+
+        }
     }
 }

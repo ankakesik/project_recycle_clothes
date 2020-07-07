@@ -4,6 +4,8 @@ import ReactDOM from "react-dom";
 import image from "../assets/images/Home-Hero-Image.jpg";
 import decoration from "../assets/icons/Decoration.svg";
 import {Link} from "react-scroll";
+import LoginNav from "./LoginNav";
+import HeaderNav from "./HeaderNav";
 
 function HomeHeader (){
 
@@ -11,23 +13,9 @@ function HomeHeader (){
         <div className="first">
             <img src={image} className="headerImg"/>
             <div className="header">
-                <ul className="headerNav">
-                    <Link to="/login">
-                        <li>Zaloguj</li>
-                    </Link>
-                    <Link to="/register">
-                        <li>Załóż konto</li>  
-                    </Link>
+                <LoginNav/>
+                <HeaderNav />
             
-                </ul>
-                <ul className="headerNav">
-                    <li>Start</li>
-                    <li>O co chodzi?</li>
-                    <li>O nas</li>
-                    <li><Link to="help" smooth={true} duration={1000}>Fundacje i organizacje</Link></li>
-                    <li>Kontakt</li>
-                </ul>
-                
                 <h1>Zacznij pomagać! <br></br> Oddaj niechciane rzeczy w zaufane ręce</h1>
                 <img src={decoration} className="decoration"></img>
                 <div className="boxes"> 

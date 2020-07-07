@@ -27,6 +27,17 @@
                 font-weight: 300;
                 font-size: 16px;
             }
+            p:before{
+                content: " ";
+                display: block;
+                width: 140px;
+                height: 1px;
+                background-color: black;
+                margin-bottom: 8px;
+                margin-left: 80px;
+            }
+
+            
         }
     }
     .give{

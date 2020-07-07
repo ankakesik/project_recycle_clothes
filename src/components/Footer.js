@@ -5,15 +5,20 @@ import instagram from "../assets/icons/Instagram.svg";
 
 function Footer () {
     return(
-        <div className="footer">
-            <h1>Copyright by Coders Lab</h1>
-            <div className="socialmedia">
-                <img src={fb}></img>
-                <img src={instagram}></img>
-
-            </div>
+        
+    <div className="footer">
+        <div className="footText">
+          <h1>Copyright by Coders Lab</h1>  
+        </div>
+        
+        <div className="socialmedia">
+            <img src={fb}></img>
+            <img src={instagram}></img>
 
         </div>
+    </div>
+        
+
     )
 }
 export default Footer;
