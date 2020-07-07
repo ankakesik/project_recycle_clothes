@@ -1,11 +1,81 @@
-.first{
-    .header{
-       display: block; 
-       .blank{
-        width: 80%;
+.loginNav{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-end;
+    
+    li{ 
+        text-align: right;
+        float: right;
+        list-style: none;
+        padding: 15px;
+        a{
+            text-decoration: none;
+        }
+        &:hover{
+            border: 1px solid rgb(77, 75, 75);
+        }
+      
+    }
+}
+.login{
+    
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    
+    label, button{
+        display: block;
+        padding-bottom: 20px;
+        color: $font-color;
+        font-size: 13px;
+        font-weight: 800;
         
     }
+    input{
+        background: transparent;
+        border: none;
+        border-bottom: 1px solid #000000;
+        margin-bottom: 13px;
+        
     }
+    .emailAndPass{
+       
+        margin-top: 60px;
+        width: 360px;
+        height: 280px;
+        background-color: $colorForm;
+        padding-bottom: 20px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+      
+        .field{
+            display: block;
+            padding-right: 20px;
+        
+        }
+    }
+    .btns{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        margin-top: 40px;
+        button{
+           
+            width: 120px;
+            height: 50px;
+            border: none;
+            background-color: white;
+            font-weight: 300;
+            font-size: 15px;
+            &:hover{
+                border: 1px solid rgb(77, 75, 75);
     
-    
+            }
+        }
+    }
 }

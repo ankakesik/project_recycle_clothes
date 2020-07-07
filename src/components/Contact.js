@@ -61,7 +61,7 @@ function Contact () {
                         </div>
                         
                     </div>
-                    <div className="btnflex">
+                    {/* <div className="btnflex"> */}
                         
                         <label>Wpisz swoją wiadomość</label>
                         <textarea name="message" ref={register({
@@ -71,7 +71,7 @@ function Contact () {
                         {errors.message && errors.message.type === "required" && <p className="wrong">Pole wymagane</p>}
                         {errors.message && errors.message.type === "minLength" && <p className="wrong">Co najmniej 120 znaków</p>}
                     <button type="submit">Wyślij</button>
-                    </div>
+                    {/* </div> */}
 
                 </form>
 
