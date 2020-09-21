@@ -41,6 +41,7 @@
   },
   "dependencies": {
     "date-fns": "^2.14.0",
+    "json-server": "^0.16.1",
     "node": "^14.5.0",
     "react": "^16.11.0",
     "react-dom": "^16.11.0",
@@ -48,5 +49,5 @@
     "react-router-dom": "^5.2.0",
     "react-scroll": "^1.7.16",
     "url-loader": "^4.1.0"
-  }
+  } 
 }
